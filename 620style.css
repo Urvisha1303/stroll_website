@@ -1,0 +1,82 @@
+@media (min-width: 500px) and (max-width: 621px) {
+  .header_ul {
+    display: none;
+  }
+  .logo {
+    width: 50%;
+  }
+  .header_content {
+    display: flex;
+    justify-content: end;
+  }
+  .header_content_bar_menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    font-size: 23px;
+  }
+  .header_content_bar_menu i {
+    color: #cfc9c9;
+    border: 1px solid white;
+    padding: 7px 10px;
+    background-color: white;
+    border-radius: 7px;
+  }
+  .slider_left_right {
+    flex-direction: column;
+    height: auto;
+  }
+  .slider_left {
+    width: 100%;
+    height: 250px;
+    margin-top: 59px;
+    display: block;
+  }
+  .slider_left_content {
+    margin-left: 3%;
+    line-height: 14px;
+  }
+  .slider_left_content h1 {
+    font-size: 35px;
+    line-height: 67px;
+  }
+  .slider_left_content h4 {
+    font-size: 20px;
+  }
+  .slider_left_content p {
+    font-size: 17px;
+  }
+  .slider_left_content button {
+    margin-top: 30px;
+    width: 128px;
+    height: 49px;
+  }
+  .slider_right {
+    width: 100%;
+    height: 300px;
+  }
+  .slider_right_img {
+    height: 320px;
+    background-position: center;
+  }
+  .slider_left_content button a{
+    top: 14px;
+    left: 26px;
+    font-size: 15px;
+  }
+  .infromation_content{
+    padding-bottom: 50px;
+  }
+  .infro_mr_ml {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .cruises_content {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+}
