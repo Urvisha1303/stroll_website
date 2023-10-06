@@ -47,11 +47,16 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
+  text-decoration: none;
 }
 .header_ul li {
   padding: 0px 25px 0px 25px;
 }
-.header_ul li:hover {
+.header_ul li a{
+  text-decoration: none;
+    color: white;
+}
+.header_ul li a:hover {
   color: #f2c532;
 }
 .header_content_bar_menu {
@@ -91,12 +96,10 @@
   height: 600px;
   display: flex;
   background-color: #f8f9fa;
-  /* border: 1px solid hotpink; */
 }
 .slider_left {
   width: 50%;
   height: 600px;
-  /* border: 1px solid rebeccapurple; */
   display: flex;
   align-items: center;
 }
@@ -147,7 +150,6 @@
   background-color: #006989;
   color: white;
   transition: width 2s;
-  /* transition-timing-function: linear; */
 }
 
 .slider_left_content a:hover {
@@ -175,7 +177,6 @@
 
 .infromation_content {
   height: auto;
-  /* border: 1px solid blue; */
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 50px;
@@ -188,7 +189,6 @@
   width: 25%;
   height: 350px;
   margin: 20px;
-  /* border: 1px solid; */
 }
 .cruises_content_logo {
   width: 85px;
@@ -208,12 +208,11 @@
   font-size: 30px;
   color: #db162f;
 }
-.cruises_content_logo i:hover {
-  color: #006989;
-}
-
-.cruises_content_logo:hover {
+.cruises_content_logo:hover{
   background-color: #e5f9ff;
+}
+.cruises_content_logo:hover i{
+  color: #006989;
 }
 
 .cruises_content h2 {

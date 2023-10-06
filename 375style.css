@@ -101,6 +101,11 @@
         margin-right: 5%;
       }
 
+      video{
+        object-fit: cover;
+        height: 300px;
+      }
+
       .title_content h2 {
         font-size: 16px;
     }
@@ -175,7 +180,7 @@
         font-size: 30px;
     padding-top: 13px;
       }
-      .fb-992 {
+      .fb2-992 {
         display: none;
       }
       .footer-ml-mr {
