@@ -60,13 +60,15 @@
     height: 320px;
     background-position: center;
   }
-  .slider_left_content button a{
+  .slider_left_content button a {
     top: 14px;
     left: 26px;
     font-size: 15px;
   }
-  .infromation_content{
+  .infromation_content {
     padding-bottom: 50px;
+    margin-left: 9%;
+    margin-right: 9%;
   }
   .infro_mr_ml {
     display: flex;
@@ -78,5 +80,119 @@
     width: 100%;
     height: auto;
     margin: 0;
+  }
+  .gallery_slide_grid {
+    width: 100%;
+  }
+  .gallery_ml_mr {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  .content_photo_booking {
+    padding-top: 50px;
+  }
+  .photo_ml_mr {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  .content_photo_content {
+    flex-direction: column;
+  }
+  .content_photo_content_left {
+    width: 100%;
+  }
+  .content_photo_content_right {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .row-form {
+    width: 100%;
+  }
+  .bg-image-ml-mr {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  .bg-image-left {
+    width: 0;
+  }
+  .bg-image-right {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .email_button {
+    flex-direction: column;
+    display: flex;
+  }
+  .email_button input {
+    width: 94%;
+    padding: 15px;
+    border-radius: 9px;
+  }
+  .email_button button {
+    width: 100%;
+    border-radius: 9px;
+    height: 45px;
+  }
+  .bg-image-right h2 {
+    font-size: 14px;
+  }
+  .feedback-form {
+    margin-top: 60px;
+  }
+  .feedback-ml-mr {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  .feedback-1 {
+    width: 39%;
+  }
+  .fb-992 {
+    display: none;
+  }
+  .footer-ml-mr {
+    margin: 0% 9%;
+  }
+  .footer-header {
+    width: 100%;
+  }
+  .footer-left-row {
+    width: 100%;
+  }
+
+  .footer-left-row h1 {
+    margin-top: 0px;
+  }
+  .footer-left-row p {
+    padding-top: 15px;
+  }
+  .icon {
+    width: 40%;
+  }
+  .footer-mid-row {
+    width: 80%;
+  }
+  .footer-right-row {
+    width: 100%;
+    margin-top: 20px;
+}
+.footer-bottom {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.footer-content {
+  flex-direction: column;
+}
+.footer-bottom-left {
+  width: 100%;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+.footer-bottom-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 }

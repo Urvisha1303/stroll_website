@@ -62,10 +62,57 @@
     font-size: 15px;
   }
   .infromation_content {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .cruises_content {
     margin: 30px;
   }
+
+  .photo_ml_mr {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  .content_photo_content {
+    flex-direction: column;
+  }
+  .content_photo_content_left {
+    margin-bottom: 40px;
+  }
+  .content_photo_content_right {
+    font-size: 18px;
+    line-height: 27px;
+}
+.gallery_ml_mr {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+  .bg-image-ml-mr {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .bg-image-right {
+    width: 81%;
+  }
+  .fb-992 {
+    display: none;
+  }
+  .feedback-1 {
+    width: 43%;
+  }
+  .feedback-ml-mr {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .footer-ml-mr {
+    margin: 0% 2%;
+}
+.footer-bottom {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footer-bottom-right{
+  width: 35%;
+}
 }
